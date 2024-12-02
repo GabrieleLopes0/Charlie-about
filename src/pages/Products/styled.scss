@@ -1,0 +1,29 @@
+@import "../../scss/variables";
+
+#wrapper-products {
+    display: flex;
+    min-height: 100vh;
+    height: 100%;
+	background-image: url(../../assets/backgroud.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .column {
+        width: 100%;
+        // height: 100%;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+
+    // .column:first-child {
+    //     width: 40%;
+    //     height: 100%;
+    //     background-color: $dark-pink;
+    // }
+}
+

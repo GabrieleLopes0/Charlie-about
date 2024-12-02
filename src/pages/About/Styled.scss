@@ -1,0 +1,30 @@
+
+$white: #ffffff;
+$light-gray: #d3d3d3;
+$gray: #808080;
+$dark-gray: #4b4b4b;
+$pink: #f28cb5;
+$dark-pink: #c74b75;
+
+$font-family: 'Arial', sans-serif;
+$cursive-font: 'Pacifico', cursive;
+
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 100px; 
+}
+
+.background {
+  background-image: url(../../assets/backgroud.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

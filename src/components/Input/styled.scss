@@ -1,0 +1,50 @@
+@import "../../scss/variables";
+
+.pass-wrapper {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+
+  .pass-visibility-icon {
+    width: 20px;
+    background-color: #49445b;
+    padding: 1px;
+    height: 20px;
+
+    margin-left: -28px;
+
+    cursor: pointer;
+  }
+
+  .icon-input {
+    width: 20px;
+    background-color: #49445b;
+    padding: 1px;
+    height: 20px;
+
+    margin-left: -28px;
+  }
+}
+
+.custom-input {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  color: $light-pink;
+  border: 2px solid $light-pink;
+  border-radius: 10px;
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out;
+
+  &::placeholder {
+    color: $light-pink;
+    opacity: 0.8;
+  }
+
+  &:focus {
+    border-color: $yellow;
+  }
+}
